@@ -15,4 +15,3 @@ The code has been implemented in both Python3 (under `scripts/wall_follow_node.p
 
 ### Starting Up the Node
 - To start up the Python node, run `ros2 run safety_node safety_node.py`
-- To start up the C++ node, run `ros2 run safety_node safety_node`
