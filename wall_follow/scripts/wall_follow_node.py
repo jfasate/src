@@ -81,7 +81,7 @@ class WallFollow(Node):
         Hardware range is -2048 to 2048
         Around 170~210 to start moving
         """
-        throttle = velocity * 300.0  # Scale factor needs tuning
+        throttle = velocity * 200.0  # Scale factor needs tuning
         if abs(throttle) < 180.0 and throttle != 0:
             throttle = np.sign(throttle) * 85.0
         return np.clip(throttle, -2048.0, 2048.0)
