@@ -42,9 +42,12 @@ def generate_launch_description():
     # Include the rallycar hardware launch if requested
     rallycar_hardware = IncludeLaunchDescription(
         PythonLaunchDescriptionSource(
-            os.path.join(rallycar_dir, 'launch', 'rallycar_hardware.launch.py')
-        ),
-        condition=IfCondition(use_rallycar_hardware)
+            os.path.join(
+                get_package_share_directory("rallycar"),
+                "launch",
+                "rallycar_hardware.launch.py",
+            )
+        )
     )
     
     # Configure the scan matching node
