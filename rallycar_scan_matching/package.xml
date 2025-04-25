@@ -4,7 +4,7 @@
   <name>rallycar_scan_matching</name>
   <version>0.1.0</version>
   <description>Scan matching localization for the rallycar platform</description>
-  <maintainer email="user@example.com">Your Name</maintainer>
+  <maintainer email="jfasate@purdue.com">Jayesh Fasate</maintainer>
   <license>Apache License 2.0</license>
 
   <buildtool_depend>ament_cmake</buildtool_depend>
